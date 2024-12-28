@@ -1,0 +1,28 @@
+<p>{{tite()}}</p>
+<div class="text-center"  >
+<div class="signpage text-cener">
+    <div>
+<Form [Formgroup="signupForm" ]>
+   
+<div class="row mb-15">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Mobile number" aria-label="Mobile number">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+    </div>
+  </div>
+  <button type="submit" [disabled]="signupForm.invalid">Submit</button>
+</Form>
+</div>
+</div>
+</div>
+
